@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col">
+        <app-mostrar-mujer [newfem]="animales"></app-mostrar-mujer>
+    </div>
+    <div class="col">
+        <app-mostrar-hombre [newmasc]="animales"></app-mostrar-hombre>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <app-agregar-animal (emisor)="agregarAnimal($event)"></app-agregar-animal>
+    </div>
+</div>
